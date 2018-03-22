@@ -233,7 +233,7 @@ MY PROJECT -*- mode: org -*-
 * Working with todo items
   New shortcuts in this chapter:
   - *S-left/right* -- cycle workflow
-  - *C-c C-v* -- show todos in current document
+  - *C-c / t* -- show todos in current document
 ** Basic todo functionality
    The biggest use-case of org-mode is using it to keep track of
    todos. To start working with todos you don't have to do anything,
@@ -246,7 +246,7 @@ MY PROJECT -*- mode: org -*-
   which will cycle through: *TODO* - *DONE* and empty.
 
   Imagine that you have a large document, with scattered all over the
-  document todo entries, *C-c C-v* will show only your current todos,
+  document todo entries, *C-c / t* will show only your current todos,
   and folding the rest away.
 ** Configuring todos
 *** In the file itself
@@ -437,7 +437,7 @@ Current:
   Besides the org-mode manual, the is the [[http://orgmode.org/worg/][worg website]], which has
   many cool ideas and [[http://orgmode.org/worg/org-tutorials/index.html][tutorials]].
 
-  For quick reminders there are the [[http://orgmode.org/index.html#sec-4.2][org-mode cheat-sheet]] and the
+  For quick reminders there are the [[https://orgmode.org/orgcard.pdf][org-mode cheat-sheet]] and the
   emacs cheat-sheet, both will help you to remember those pesky
   short-cuts. 
 * Beyond the basics
@@ -453,7 +453,7 @@ Current:
 ** Running the latest version of org-mode
 
    New commands in this section:
-   - *M-x reload* -- reload org-mode after an update
+   - *M-x org-reload* -- reload org-mode after an update
    - *M-x org-version* -- show org-mode version
 
    Pretty soon you will notice that the development of org-mode goes a
